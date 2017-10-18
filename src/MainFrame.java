@@ -54,7 +54,6 @@ public class MainFrame extends JFrame {
         }
 
         for(int i =0; i<10 ;i++) {
-
             jbtn[i] = new JButton(Integer.toString(arr[i]));
             jpn.add(jbtn[i]);
             jbtn[i].addActionListener(new ActionListener() {
